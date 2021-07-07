@@ -1,0 +1,32 @@
+.details {
+  background-color: white;
+  border-radius: 20px;
+  display: block;
+  margin: auto;
+  max-width: 500px;
+  min-height: 600px;
+  padding: 10px 20px;
+}
+
+.details img {
+  border-radius: 15px;
+  margin-top: 10px;
+  width: 500px;
+}
+
+.details a {
+  background-color: #0d66d0;
+  border-radius: 15px;
+  color: white;
+  font-weight: 600;
+  margin-left: 12%;
+  padding: 8px 12px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  top: 30px;
+}
+
+.details a:hover {
+  background-color: #0454a0;
+}

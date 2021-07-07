@@ -1,0 +1,60 @@
+@keyframes appearFromLeft {
+
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.card {
+  animation: appearFromLeft 2s;
+  border-radius: 20px;
+  margin: 20px;
+  max-width: 500px;
+  min-height: 480px;
+  padding: 20px 10px;
+}
+
+.card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 480px;
+}
+
+.card-info {
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 200px;
+  margin-top: -25px;
+  text-align: center;
+  width: 479px;
+}
+
+.card-info h2 {
+  padding-top: 10px;
+}
+
+.card-info-story {
+  padding: 0 10px;
+  text-align: center;
+}
+
+.card-info-story a {
+  background-color: #0d66d0;
+  border-radius: 15px;
+  color: white;
+  font-weight: 600;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.card-info-story a:hover {
+  background-color: #0454a0;
+}

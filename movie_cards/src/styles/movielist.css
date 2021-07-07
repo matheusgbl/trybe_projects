@@ -1,0 +1,44 @@
+body {
+  background-color: #333;
+}
+
+div {
+  margin-top: 20px;
+}
+
+@keyframes appearFromLeft {
+
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.new-card {
+  animation: appearFromLeft 1s;
+  background-color: #0d66d0;
+  border-radius: 15px;
+  color: white;
+  display: block;
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 20%;
+}
+
+.new-card:hover {
+  background-color: #0454a0;
+}
+
+.movies {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+}
