@@ -1,0 +1,29 @@
+@keyframes appearFromLeft {
+
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+.search-form {
+  animation: appearFromLeft 1s;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  font-weight: 500;
+  margin: 0 auto;
+  padding: 10px;
+  width: 550px;
+}
+
+.search-form input {
+  margin: 0 10px;
+  outline: none;
+}
