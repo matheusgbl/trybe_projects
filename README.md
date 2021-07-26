@@ -19,5 +19,5 @@ Primeiro projeto desenvolvido em grupo, uma loja online fictícia construída at
 - CSS
 
 ### Vercel Deploys : 
-[Movie Card](https://trybe-projects.vercel.app/)
-[Online Store](https://trybe-projects-seven.vercel.app/)
+- [Movie Card](https://trybe-projects.vercel.app/)
+- [Online Store](https://trybe-projects-seven.vercel.app/)
