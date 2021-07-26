@@ -1,0 +1,26 @@
+.category-content {
+  padding: 10px 20px;
+  position: absolute;
+  top: 120px;
+}
+
+.category-content h4 {
+  margin-left: 45px;
+}
+
+.category-ul {
+  list-style: none;
+}
+
+.category-li {
+  list-style: none;
+}
+
+.category-btn {
+  border: none;
+  cursor: pointer;
+}
+
+.category-btn:hover {
+  color: #ff9000;
+}

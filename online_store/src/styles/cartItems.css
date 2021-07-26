@@ -1,0 +1,20 @@
+.cart-items-content {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  margin: auto;
+  max-width: 50%;
+}
+
+.cart-items-card {
+  background-color: white;
+  border-radius: 10px;
+  margin: 20px;
+  min-height: 460px;
+  padding: 10px 20px;
+}
+
+.cart-items-text {
+  margin-bottom: 20px;
+  text-align: center;
+}

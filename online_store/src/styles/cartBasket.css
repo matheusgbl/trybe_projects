@@ -1,0 +1,28 @@
+.cart-basket-header {
+  align-items: center;
+  background-color: #22272e;
+  display: flex;
+  height: 60px;
+  padding: 10px 60px;
+}
+
+.cart-basket-link {
+  text-decoration: none;
+}
+
+.cart-basket-btn {
+  background-color: #ff9000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  font-weight: 600;
+  justify-content: center;
+  margin: 15px auto;
+  padding: 15px 0;
+  width: 48%;
+}
+
+.cart-basket-btn:hover {
+  background-color: #ffa733;
+}

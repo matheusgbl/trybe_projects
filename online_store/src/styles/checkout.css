@@ -1,0 +1,111 @@
+.checkout-content {
+  padding: 10px 80px;
+}
+
+.checkout-text {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.checkout-content-list {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  margin: auto;
+  max-width: 50%;
+}
+
+.checkout-list-products {
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px 0;
+  min-height: 400px;
+  padding: 20px;
+  width: 200px;
+}
+
+.checkout-title {
+  display: block;
+  font-weight: 500;
+  height: 105px;
+  margin-bottom: 20px;
+  overflow: hidden;
+
+  /* https://stackoverflow.com/questions/36652580/
+  how-to-add-three-dots-to-text-when-overflow-in-html/36653821 */
+  text-align: center;
+  width: 200px;
+}
+
+.checkout-img {
+  width: 200px;
+}
+
+.checkout-price, .checkout-quantity {
+  font-weight: 500;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.checkout-total-price {
+  font-weight: 600;
+  margin: 20px 0;
+  padding: 0 238px;
+}
+
+.checkout-form {
+  padding: 0 320px;
+}
+
+.checkout-fieldset-user-info, .checkout-fieldset-payment {
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.user-info-text, .payment-method-text {
+  font-size: 18px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.checkout-inputs input {
+  margin-right: 5px;
+  margin-top: 10px;
+  outline: none;
+}
+
+.checkout-input-address input {
+  margin-bottom: 15px;
+  margin-right: 5px;
+  margin-top: 10px;
+  outline: none;
+}
+
+.checkout-fieldset-payment {
+  text-align: center;
+}
+
+.checkout-fieldset-payment label {
+  margin: 0 10px;
+}
+
+.checkout-fieldset-payment input {
+  margin: 0 5px;
+}
+
+.checkout-buy-btn {
+  background-color: #ff9000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  margin: 10px auto;
+  padding: 10px 512px;
+}
+
+.checkout-buy-btn:hover {
+  background-color: #ffa733;
+}
